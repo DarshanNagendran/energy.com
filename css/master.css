@@ -1,0 +1,257 @@
+body{
+	margin:0;
+	padding:0;
+	color:#000000;
+	font-size:16px;
+	font-weight:400;
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4 {
+	font-family: 'Poppins', sans-serif;
+}
+*,div:before,div:after{
+	box-sizing:border-box;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p,figure,form {
+	margin:0;
+	padding:0;
+}
+
+a {
+	text-decoration:none;
+	color:#000000;
+}
+li {
+	list-style:none;
+}
+.header-row1 {
+	padding:15px 0;
+}
+.header-row1-inner {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.container{
+	max-width:1200px;
+	margin:0 auto;
+}
+.logo a {
+	color:#2167b0;
+	
+	font-size: 44px;
+    display: flex;
+    align-items: center;
+	font-family: 'Poppins', sans-serif;
+}
+.logo a span {
+	font-size: 26px;
+    font-weight: 800;
+    padding: 0 0 0 5px;
+	color:#000000;
+}
+
+.navigation-wrap {
+	display:flex;
+	align-items: center;
+}
+.navigation-left {
+	display:flex;
+	padding-right: 30px;
+}
+.navigation-left li {
+	padding:0px 15px;
+}
+.navigation-left li a {
+	font-size:13px;
+	padding-bottom:10px;
+	border-bottom:2px solid #ffffff;
+	font-weight:600;
+}
+.navigation-left li a:hover, .navigation-left li a.active-menu {
+	border-bottom:2px solid #2167b0;
+}
+.navigation-right {
+	display:flex;
+	align-items: center;
+}
+.navigation-right li {
+	padding:0px 15px;
+}
+.navigation-right li a {
+	font-size:13px;
+	color:#2167b0;
+	font-weight:600;
+}
+.navigation-right li:last-child a{
+	width:150px;
+	height:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border:1px solid #2167b0;
+}
+.banner img{
+	width:100%;
+}
+.header-row2 figure{
+	position:relative;
+}
+.header-row2 figcaption{
+	position: absolute;
+    top: 50%;
+    color: #fff;
+	transform:translate(0, -50%);
+	width:100%;
+}
+.header-row2 figcaption h1{
+	font-size: 50px;
+}
+.header-row2 figcaption p{
+	font-size:18px;
+}
+.app-store-wrap {
+	padding-top:30px;
+	display:flex;
+}
+.app-store-wrap a {
+	display:flex;
+	margin-right:20px;
+}
+.article-row1{
+	padding-top:100px;
+}
+.article-row1 figure{
+	display:flex;
+	justify-content:end;
+	position: relative;
+}
+.ar1-top{
+	position: absolute;
+    top: -69px;
+    left: 0;
+    width: 590px;
+    height: 150px;
+    background-color: #005eb8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 0 40px;
+}
+.ar1-bottom{
+	background-color:#eef2f5;
+	position:absolute;
+	bottom:-100px;
+	right:100px;
+	padding:20px 30px;
+	display:flex:
+	flex-direction:column;
+	width:480px;
+}
+.ar1-bottom h1{
+	text-align: right;
+    font-size: 30px;
+	color:#4f8eca;
+}
+.ar1-bottom h2{
+	padding-bottom:20px;
+}
+.ar1-bottom p{
+	padding-bottom:20px;
+	text-align:justify;
+}
+.ar1-bottom a{
+	display:flex;
+	align-items:center;
+	font-weight:600;
+	color:#185aac;
+}
+.ar1-bottom a span{
+	background-color:#4f8eca;
+	height:2px;
+	width:30px;
+	margin-left:5px;
+}
+.article-row2{
+	padding-top:180px;
+	padding-bottom:30px
+}
+.article-row2-inner{
+	display:flex;
+}
+.ar2-inner-left{
+	width:55%;
+	padding-right:20px;
+	padding-left:150px;
+}
+.ar2-inner-right{
+	width:45%;
+	padding-left:20px;
+}
+.ar2-inner-left h1{
+	font-size:30px;
+	font-weight:700;
+	padding-bottom:30px;
+}
+.ar2-inner-left span{
+	color:#3682b8;
+}
+.ar2-inner-left p{
+	padding-bottom:50px;
+}
+.ar2-inner-left figure{
+	position:relative;
+}
+.ar2-card figcaption{
+	position: absolute;
+    width: 360px;
+    bottom: 50px;
+    background-color: #fff;
+    left: 20px;
+    padding: 20px;	
+	box-shadow:2px 3px #e9e9e9;
+}
+.ar2-card h2{
+	padding-bottom:20px;
+}
+.ar2-card p{
+	padding-bottom:20px;
+	text-align:justify;
+}
+.ar2-card a{
+	display:flex;
+	align-items:center;
+	font-weight:600;
+	color:#185aac;
+}
+.ar2-card a span{
+	background-color:#4f8eca;
+	height:2px;
+	width:30px;
+	margin-left:5px;
+}
+.ar2-card{
+	padding-bottom:170px;
+}
+
+.ar2-card{
+	position:relative;
+}
+
+.scrollup {
+    width: 46px;
+    height: 46px;
+    opacity: 1;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    text-indent: -9999px;
+    background: url(../images/icon_top.png) no-repeat;
+    z-index: 1000;
+}
